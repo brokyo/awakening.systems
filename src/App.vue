@@ -100,6 +100,14 @@ export default {
           name: 'position: absolute',
           items: [
             {
+              name: 'in excelsis i/o',
+              short: 'building a digital choir',
+              long: 'a blog post detailing how to build a digital choir and explaining the context of decisions',
+              tech: 'tone.js, vue.js',
+              url: 'https://medium.com/@brokyo/in-excelsis-i-o-creating-digital-choirs-in-tone-js-f14d84982409?source=friends_link&sk=76cfd3279443d1ac9b4e2a0a2ddcf8a0',
+              image: 'images/choir.png'
+            },
+            {
               name: 'saijiki.js',
               short: 'a 歳時記 for net artists and computational poets',
               long: 'A JavaScript implementation of a Japanese poetry reference book for digital art. This is a bunch of things at once. A JS library, a blog post about that library, and a demo site.  ',
@@ -245,9 +253,12 @@ body {
 }
 
 #signup {
-  position: absolute;
+  background-color: #EDECE9;
+  border-top: 1px solid black;
+  position: fixed;
   bottom: 0;
-  margin-bottom: 20px;
+  left: 0;
+  width: 100%;
   font-size: 10px;
 }
 

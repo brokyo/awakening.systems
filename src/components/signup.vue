@@ -27,4 +27,8 @@ export default {
 }
 </script>
 <style>
+#mc_embed_signup {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
 </style>
