@@ -4,13 +4,13 @@
       <div class="list" v-for="category in categories">
         <span>{{category.name}}</span>
         <ul>
-          <li v-for="item in category.items"><a :href="item.url" target="_blank" @mouseover="activeItem = item" @mouseleave="activeItem = categories[2].items[3]">{{item.name}}</a></li>
+          <li v-for="item in category.items"><a :href="item.url" target="_blank" @mouseover="activeItem = item" @mouseleave="activeItem = baseImage">{{item.name}}</a></li>
         </ul>
       </div>
     </div>
     <div id="display" v-if="activeItem">
-      <div id="image" :style="{ backgroundImage: 'url(' + activeItem.image + ')' }">
-        <div id="metaData">
+      <div id="image" :style="{ backgroundImage: 'url(' + activeItem.image + ')' }" :class="{'logo-selected': activeItem == baseImage}">
+        <div id="metaData" v-show="activeItem !== baseImage">
           <p id="title">{{activeItem.name}}</p>
           <p id="short">{{activeItem.short}}</p>
         </div>
@@ -53,6 +53,14 @@ export default {
               tech: 'p5, tone.js',
               url: 'https://breathe.under-construction.club/',
               image: 'images/breath.png'
+            },
+            {
+              name: 'healing codes for the biological apocalypse',
+              short: 'new age healing inkblot drone',
+              long: 'graph of musical nodes based on the watts-strogatz random generation model. nodes are connected to their neighbors in a way that models real-world connections. over time healing solfeggio frequencies are introduced to nodes and get louder as they spread throughout the model. the drone is the network. inspired by setu',
+              tech: 'p5, tone.js',
+              url: 'https://healingcodes.under-construction.club/',
+              image: 'images/sn.png'
             },
             {
               name: 'waves [for anna and dylan]',
@@ -130,14 +138,6 @@ export default {
               tech: 'iphone4, lom priezor, zoom h4n pro',
               url: 'https://www.youtube.com/watch?v=PL_BoTdG7vA&list=PLhNGcsSWZ_gA0fVJbWJHEwOKMGPKIYsBl&index=18',
               image: 'images/olp-v.jpg'
-            },
-            {
-              name: 'healing codes for the biological apocalypse',
-              short: 'new age healing inkblot drone',
-              long: 'graph of musical nodes based on the watts-strogatz random generation model. nodes are connected to their neighbors in a way that models real-world connections. over time healing solfeggio frequencies are introduced to nodes and get louder as they spread throughout the model. the drone is the network. inspired by setu',
-              tech: 'p5, tone.js',
-              url: 'https://healingcodes.under-construction.club/',
-              image: 'images/sn.png'
             }
           ]
         },
@@ -164,21 +164,24 @@ export default {
             },
             {
               name: 'contact/about',
-              long: 'hiya. i\'m alex carusillo, a net artist in new york, new york and this is a sample of the projects i\'ve been working on. if you haven\'t looked at something in awhile check it out again. there may be something new. i\'m always interested in collaborations or just saying hello. alexcarusillo@gmail.com.',
+              long: 'this is a collection of generative art systems inspired by the mystical corners of the internet (and some other stuff now, too.) they\'re created by alexander carusillo, a net artist in new york, new york. alexcarusillo@gmail.com',
               image: 'images/profile.jpg'
             }
           ]
         }
-      ]      
+      ],
+      baseImage: {
+        long: 'antennas for the little god of the wires',
+        image: 'images/logo.svg'
+      }  
     }
   },
   mounted() {
-    this.activeItem = this.categories[2].items[3]
+    this.activeItem = this.baseImage
   }
 };
 </script>
 
-  <!-- background-color: ; -->
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|Roboto+Mono');
 
@@ -230,6 +233,11 @@ body {
       text-transform: capitalize
     }
   }
+}
+
+.logo-selected {
+  background-position: center;
+  background-repeat: no-repeat; 
 }
 
 #description {
