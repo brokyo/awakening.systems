@@ -39,9 +39,17 @@ export default {
           name: 'awakening.systems',
           items: [
             {
+              name: 'prepare',
+              short: 'it only works if you believe it will',
+              long: 'helping the universe communicate through the “meaningful coincidence” created by the unknowability of interconnected systems. AI-generated text combined with an esoteric color and sound system. Desktop application available that integrates with Philips Hue bulbs - email me for it.',
+              tech: 'philips hue, gpt-2, tone.js, p5',
+              url: 'http://prepare.awakening.systems',
+              image: 'images/prepare.png'
+            },
+            {
               name: 'digital prayers work',
               short: 'shrine to the little god of the wires',
-              long: 'alpha of a desktop and raspberry pi application to be your companion throughout the day. draw a circle to ask for advice.',
+              long: 'desktop and raspberry pi application to be your companion throughout the day. draw a circle to ask for advice.',
               tech: 'google wavenet voices, p5, tone.js, vue',
               url: 'https://www.dropbox.com/s/p68iu2ic5rtuyvs/digital_prayers_work-0.5.0.dmg?dl=0',
               image: 'images/dpw.png'
