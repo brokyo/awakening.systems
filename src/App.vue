@@ -140,12 +140,10 @@ export default {
               image: 'images/fol.png'
             },
             {
-              name: 'our little planet',
-              short: 'ambient youtube videos',
-              long: 'an ongoing series of long-form videos where nothing happens. audio is mixed with a simultaneous recording of the place\'s electromagnetic field',
-              tech: 'iphone4, lom priezor, zoom h4n pro',
-              url: 'https://www.youtube.com/watch?v=PL_BoTdG7vA&list=PLhNGcsSWZ_gA0fVJbWJHEwOKMGPKIYsBl&index=18',
-              image: 'images/olp-v.jpg'
+              name: 'additive synth',
+              long: 'configurable tone.js synthesizer and loop composer. exports json and useful for creating sounds for web projects.',
+              url: 'https://additive-synth.under-construction.club/',
+              image: 'images/as.png'
             }
           ]
         },
@@ -153,16 +151,12 @@ export default {
           name: 'everything else',
           items: [
             {
-              name: 'geocities spelunker',
-              long: 'random access geocities archive and user-generated hall of fame. take a moment for those who came before.',
-              url: 'https://spelunker.under-construction.club/',
-              image: 'images/su.png'
-            },
-            {
-              name: 'additive synth',
-              long: 'configurable tone.js synthesizer and loop composer. exports json so extremely useful for creating sounds for web projects.',
-              url: 'https://additive-synth.under-construction.club/',
-              image: 'images/as.png'
+              name: 'our little planet',
+              short: 'ambient youtube videos',
+              long: 'an ongoing series of long-form videos where nothing happens. audio is mixed with a simultaneous recording of the place\'s electromagnetic field',
+              tech: 'iphone4, lom priezor, zoom h4n pro',
+              url: 'https://www.youtube.com/watch?v=PL_BoTdG7vA&list=PLhNGcsSWZ_gA0fVJbWJHEwOKMGPKIYsBl&index=18',
+              image: 'images/olp-v.jpg'
             },
             {
               name: 'photos',
