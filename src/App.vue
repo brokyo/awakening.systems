@@ -39,11 +39,11 @@ export default {
           name: 'awakening.systems',
           items: [
             {
-              name: 'prepare',
+              name: 'vibrations',
               short: 'it only works if you believe it will',
               long: 'helping the universe communicate through the “meaningful coincidence” created by the unknowability of interconnected systems. AI-generated text combined with an esoteric color and sound system. Desktop application available that integrates with Philips Hue bulbs - email me for it.',
               tech: 'philips hue, gpt-2, tone.js, p5',
-              url: 'http://prepare.awakening.systems',
+              url: 'http://vibrations.awakening.systems',
               image: 'images/prepare.png'
             },
             {
@@ -69,14 +69,6 @@ export default {
               tech: 'p5, tone.js',
               url: 'https://healingcodes.under-construction.club/',
               image: 'images/sn.png'
-            },
-            {
-              name: 'waves [for anna and dylan]',
-              short: 'generative art instillation',
-              long: 'configurable generative art piece attempting to induce synesthesia. philips hue lightbulbs matched to a software synthesizers. play in a dark, quiet room. link is a video of a performance but email me if you`d like the application',
-              tech: 'tone.js, philips hue, speakers',
-              url: 'https://www.youtube.com/watch?v=C7_RPvi7zDg',
-              image: 'images/waves.jpg'
             },
             {
               name: 'everything a cycle',
@@ -138,17 +130,11 @@ export default {
               tech: 'p5',
               url: 'https://medium.com/@brokyo/drawing-the-flower-of-life-22206fe36d02?source=friends_link&sk=07f773e2191b36fe377df0788b6058d3',
               image: 'images/fol.png'
-            },
-            {
-              name: 'additive synth',
-              long: 'configurable tone.js synthesizer and loop composer. exports json and useful for creating sounds for web projects.',
-              url: 'https://additive-synth.under-construction.club/',
-              image: 'images/as.png'
             }
           ]
         },
         {
-          name: 'everything else',
+          name: 'etc',
           items: [
             {
               name: 'our little planet',
@@ -159,6 +145,12 @@ export default {
               image: 'images/olp-v.jpg'
             },
             {
+              name: 'additive synth',
+              long: 'configurable tone.js synthesizer and loop composer. exports json and useful for creating sounds for web projects.',
+              url: 'https://additive-synth.under-construction.club/',
+              image: 'images/as.png'
+            },
+            {
               name: 'photos',
               long: 'photos taken using plastic cameras and expired/home made film',
               url: 'https://www.flickr.com/photos/95717285@N00/sets/72157702680866031',
@@ -167,6 +159,7 @@ export default {
             {
               name: 'contact/about',
               long: 'this is a collection of generative art systems inspired by the mystical corners of the internet (and some other stuff now, too.) they\'re created by alexander carusillo, a net artist in new york, new york. alexcarusillo@gmail.com',
+              url: 'mailto:alexcarusillo@gmail.com',
               image: 'images/profile.jpg'
             }
           ]
@@ -190,6 +183,10 @@ export default {
 body {
   background-color: #EDECE9;
   font-family: 'Roboto Mono', monospace;
+}
+
+li {
+  list-style-type: square;
 }
 
 #container {
