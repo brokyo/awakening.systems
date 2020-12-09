@@ -55,11 +55,19 @@ export default {
               image: 'images/dpw.png'
             },
             {
+              name: 'late afternoon',
+              short: 'a postcard from july 2020 at 3pm',
+              long: 'devolving synth loop using colors and field recordings captured out my alphabet city window in July 2020.',
+              tech: 'tone.js, zoom h4n recorder, p5',
+              url: 'https://lateafternoon.awakening.systems/',
+              image: 'images/la.png'
+            },
+            {
               name: 'breathing',
               short: 'in and out and in and out',
               long: 'generative drone and breathing exercise based on 3d perlin noise. spend a few minutes with it when you need it.',
               tech: 'p5, tone.js',
-              url: 'https://breathe.under-construction.club/',
+              url: 'https://breathe.awakening.systems/',
               image: 'images/breath.png'
             },
             {
@@ -67,7 +75,7 @@ export default {
               short: 'new age healing inkblot drone',
               long: 'graph of musical nodes based on the watts-strogatz random generation model. nodes are connected to their neighbors in a way that models real-world connections. over time healing solfeggio frequencies are introduced to nodes and get louder as they spread throughout the model. the drone is the network. inspired by setu',
               tech: 'p5, tone.js',
-              url: 'https://healingcodes.under-construction.club/',
+              url: 'https://healingcodes.awakening.systems/',
               image: 'images/sn.png'
             },
             {
@@ -75,7 +83,7 @@ export default {
               short: 'tiny music boxes',
               long: 'a framework for creating probabilistic music systems with matching visuals. one possible example linked but view the code to easily make your own.',
               tech: 'tone.js, p5',
-              url: 'https://everythingacycle.under-construction.club/',
+              url: 'https://everythingacycle.awakening.systems/',
               image: 'images/olp2.png'
             },
             {
@@ -83,7 +91,7 @@ export default {
               short: 'things change slowly',
               long: 'simple, devolving patterns play and change over time while new york rushes by. compose and share your own.',
               tech: 'tone.js, nyc dot traffic cameras',
-              url: 'https://pools.under-construction.club/',
+              url: 'https://pools.awakening.systems/',
               image: 'images/fade.png',
             },
             {
@@ -91,7 +99,7 @@ export default {
               short: 'windchimes',
               long: 'play little melodies while watching videos of things that could be. click "make a new one" to create and share your own',
               tech: 'tone.js, p5, vue',
-              url: 'https://ourlittleplanet.under-construction.club/',
+              url: 'https://otherlives.awakening.systems/',
               image: 'images/olp.png'
             },
             {
@@ -99,7 +107,7 @@ export default {
               short: 'drone paintings',
               long: 'early drone experimentation. configure a drone then click and drag on the screen to change drone and visuals. more instance open = more interesting effect.',
               tech: 'web audio api',
-              url: 'https://windows.under-construction.club/',
+              url: 'https://windows.awakening.systems/',
               image: 'images/windows.png'
             }
           ]
@@ -147,7 +155,7 @@ export default {
             {
               name: 'additive synth',
               long: 'configurable tone.js synthesizer and loop composer. exports json and useful for creating sounds for web projects.',
-              url: 'https://additive-synth.under-construction.club/',
+              url: 'https://additivesynth.awakening.systems/',
               image: 'images/as.png'
             },
             {
